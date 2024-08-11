@@ -30,7 +30,7 @@ public protocol BasicBottomSheetPresentable: AnyObject {
 
   /// The insets between the screen and the container view for a bottom sheet.
   ///
-  /// The default value for `bottomSheetInsets` is `view.safeAreaInsets.top + 42.0`
+  /// The default value for `bottomSheetTopInset` is `view.safeAreaInsets.top + 42.0`
   var bottomSheetTopInset: CGFloat { get }
 
   /// The `bottomSheetHeight` property represents the height of the presented view for a bottom sheet.
